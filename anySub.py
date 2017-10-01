@@ -11,6 +11,8 @@ def compare(f, s):
 
 
 def subtract(x, y, base=2):
+    x = str(x)
+    y = str(y)
     c = 0
     R = ""
     v = "0123456789ABCDEF"
